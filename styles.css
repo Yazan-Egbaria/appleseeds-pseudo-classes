@@ -1,0 +1,8 @@
+a {
+    color: purple;
+}
+a::after {
+    content: " (" attr(href) ")";
+    color: purple;
+    font-size: 0.9em;
+}
