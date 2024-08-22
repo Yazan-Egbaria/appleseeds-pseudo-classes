@@ -18,8 +18,10 @@ p {
 a:hover::before {
     content: attr(data-tooltip);
     padding: 0.125rem;
-    background: yellow;
-    color: red;
+    background: black;
+    color: white;
     position: absolute;
-    top: 25px;
+    top: 15px;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
 }
